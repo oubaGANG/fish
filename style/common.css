@@ -1,0 +1,47 @@
+body {
+    padding-top: 10px;
+}
+.allcanvas {
+    position: relative;
+    margin: 0 auto;
+    width: 800px;
+    height: 575px;
+}
+#canvas1, #canvas2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+#canvas1 {
+    z-index: 1;
+}
+
+#canvas2 {
+    z-index: 0;
+}
+
+
+#note{text-align: center;    width: 800px;margin: 10px auto;}
+#note em{padding-right: 50px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
